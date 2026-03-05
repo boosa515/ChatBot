@@ -27,12 +27,6 @@ O principal diferencial é a integração com a **API do Google Gemini**, que fo
 <br/>
 <br/>
 
-## Teste do software
-
-  <strong>Video:</strong> <a href="#"><strong>Clique Aqui (Insira o link do seu vídeo)</strong></a>
-<br/>
-<br/>
-
 ## ⚙️ Principais Funcionalidades
 
 * **IA Generativa:** Chatbot integrado ao Google Gemini 1.5 Flash, configurado com instruções de sistema personalizadas (Persona de Barista).
