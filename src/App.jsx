@@ -8,7 +8,6 @@ import Home from "./pages/Home";
 import History from "./pages/History";
 import Menu from "./pages/Menu";
 
-// --- NOVO COMPONENTE PARA ROLAR AO TOPO ---
 const ScrollToTop = () => {
   const { pathname } = useLocation();
 
@@ -68,12 +67,10 @@ const App = () => {
 
   return (
     <Router>
-      {/* Componente que força o scroll para o topo ao mudar de rota */}
       <ScrollToTop />
 
       <div className={`container ${showChatbot ? "show-chatbot" : ""}`}>
-        
-        {/* HEADER DO SITE */}
+
         <header className="site-header">
           <div className="logo">Aroma Beans</div>
           <div className="nav-container">
@@ -89,7 +86,6 @@ const App = () => {
           </div>
         </header>
 
-        {/* CONTEÚDO DAS PÁGINAS */}
         <main className="main-content">
           <Routes>
             <Route path="/" element={<Home />} />
@@ -98,7 +94,6 @@ const App = () => {
           </Routes>
         </main>
 
-        {/* RODAPÉ */}
         <footer className="site-footer">
           <div className="footer-content">
             <div className="footer-column">
@@ -131,10 +126,8 @@ const App = () => {
           <div className="footer-bottom"><p>&copy; 2024 Aroma Beans.</p></div>
         </footer>
 
-        {/* CHATBOT (Estrutura Modificada) */}
         <div className="chatbot-popup">
           
-          {/* Cabeçalho do Chatbot Personalizado */}
           <div className="chat-header">
             <div className="header-icon-left">
               <ChatbotIcon />
