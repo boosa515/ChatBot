@@ -1,4 +1,4 @@
-# < Chatbot Aroma Beans > ☕
+# Chatbot Aroma Beans
 <br/>
 <br/>
 <p align="center">
@@ -27,12 +27,6 @@ O principal diferencial é a integração com a **API do Google Gemini**, que fo
 <br/>
 <br/>
 
-## Teste do software
-
-  <strong>Video:</strong> <a href="#"><strong>Clique Aqui (Insira o link do seu vídeo)</strong></a>
-<br/>
-<br/>
-
 ## ⚙️ Principais Funcionalidades
 
 * **IA Generativa:** Chatbot integrado ao Google Gemini 1.5 Flash, configurado com instruções de sistema personalizadas (Persona de Barista).
@@ -55,13 +49,7 @@ O principal diferencial é a integração com a **API do Google Gemini**, que fo
 
 # 1. Configurar o Ambiente
 
-Assumindo que você já clonou o repositório e está no diretório do projeto:
-
-  Instala as dependências do projeto
-  ```bash
-  npm install
-```
-  Configura a API Key Crie um arquivo chamado .env na raiz do projeto e adicione sua chave:
+  Configure a API Key Crie um arquivo .env na raiz do projeto e adicione sua chave:
 
   ```bash
 VITE_API_URL=[https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=SUA_CHAVE_AQUI]
@@ -69,15 +57,3 @@ VITE_API_URL=[https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5
 <br/>
 <br/>
 
-# 2. Rodar a Aplicação
-
-Com as dependências instaladas e a chave configurada:
-
-Inicia o servidor de desenvolvimento
-  ```bash
-npm run dev
-```
-Acesso
-  ```bash
-O projeto estará disponível em http://localhost:5173/ (ou a porta indicada no terminal).
-```
